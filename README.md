@@ -1,5 +1,5 @@
 # hovercraf
-Υλικά Κατασκευής
+Υλικά Κατασκευής:
 Arduino Uno
 3 DC Motors (Κατάλληλης ισχύος)
 Supersonic Distance Sensor HC-SR04
