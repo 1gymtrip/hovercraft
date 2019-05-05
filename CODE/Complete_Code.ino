@@ -58,25 +58,24 @@ void setup() {
   pinMode(motor1a, OUTPUT);
   pinMode(motor1b, OUTPUT);
   pinMode(motor1s, OUTPUT);
+  digitalWrite(motor1s, HIGH);
   // Motor 2 
   pinMode(motor2a, OUTPUT);
   pinMode(motor2b, OUTPUT);
   pinMode(motor2s, OUTPUT);
+  digitalWrite(motor2s, HIGH);
   // Motor 3 
   pinMode(motor3a, OUTPUT);
   pinMode(motor3b, OUTPUT);
   pinMode(motor3s, OUTPUT);
-  digitalWrite(motor1s, HIGH);
- digitalWrite(motor2s, HIGH);
   // Motor 3 Setup
   digitalWrite(motor3s, HIGH); 
   digitalWrite(motor3a, HIGH);
   digitalWrite(motor3b, LOW);
   //Commencement of Serial Communication
   Serial.begin(9600);
-int ultrasonic = 40;
- myservo.write(90);
-
+  myservo.write(90);
+  int ultrasonic = 40;
 }
 
 /*
